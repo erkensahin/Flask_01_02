@@ -50,21 +50,21 @@ Birim testi için entegre destek sağlar.
 
 ## Part 2 - Write a Simple Hello World Web Application on GitHub Repo (Bölüm 2 - GitHub Repo'da Basit Bir Merhaba Dünya Web Uygulaması Yazın)
 
-flask-01-02-hello-world-app-Jinja-TemplateKlasörün altında reponuzda adlandırılmış bir klasör oluşturun python/hands-onve altına gidin.
+flask-01-02-hello-world-app-Jinja-Template Klasörün altında reponuzda adlandırılmış bir klasör oluşturun python/hands-onve altına gidin.
 
 flask-01-hello-world-app Adlı klasör oluştur
 
-Adlı python dosyası oluşturunhello-world-app.py
+hello-world-app.py Adlı python dosyası oluşturun
 
 Flask modülünü içe aktarın.
 
-appİçe aktarılan Flask modülünden adlandırılmış bir nesne oluşturun .
+İçe aktarılan Flask modülünden app adlandırılmış bir nesne oluşturun .
 
-helloBir dize döndüren bir işlev oluşturun Hello World.
+hello Bir dize döndüren bir işlev oluşturun Hello World.
 
-helloİşlevi dekoratörle yönlendiren bir URL atayın @app.route('/').
+hello İşlevi dekoratörle yönlendiren bir URL atayın @app.route('/').
 
-secondBir dize döndüren bir işlev oluşturun ve işlevi dekoratörle This is the second pageyönlendiren bir URL atayın .second@app.route('/second')
+second Bir dize döndüren bir işlev oluşturun ve işlevi dekoratörle This is the second page yönlendiren bir URL atayın @app.route('/second')
 
 thirdBir dize döndüren bir işlev oluşturun ve işlevi dekoratörle This is the subpage of third pageyönlendiren bir URL atayın .third@app.route('/third/subthird')
 
